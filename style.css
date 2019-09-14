@@ -8,6 +8,18 @@
   font-style: normal;
 }
 
+@media only screen and (max-width: 1024px) {
+  .main{display: none;
+  }
+}
+
+
+@media only screen and (min-width: 1025px) {
+  .temp-main{display: none;
+  }
+}
+
+
 html::-webkit-scrollbar {
   width: 0 !important;
 }
@@ -634,6 +646,14 @@ a:active {
   overflow: hidden;
 }
 
+.temp-main {
+margin-top: -36px;
+}
+
+.picture{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .wave {
   position: absolute;
   overflow: hidden;
