@@ -7,7 +7,12 @@
   font-weight: normal;
   font-style: normal;
 }
-
+@media (min-width: 768px){
+.col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 50%;
+    max-width: 50;
+}}
 @media only screen and (max-width: 1024px) {
   .main{display: none;
   }
